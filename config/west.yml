@@ -41,6 +41,5 @@ manifest:
     - name: zmk-feature-runtime-combo
       remote: cormoran
       revision: main
-      import: true
   self:
     path: config
