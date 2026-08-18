@@ -5,7 +5,6 @@
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/pointing.h>
-#include <runtime_combo.dtsi>
 
 &mt {
     flavor = "balanced";
@@ -15,10 +14,6 @@
 / {
     combos {
         compatible = "zmk,combos";
-
-        runtime_combos {
-            compatible = "zmk,runtime-combos";
-        };
 
         tab {
             bindings = <&kp TAB>;
