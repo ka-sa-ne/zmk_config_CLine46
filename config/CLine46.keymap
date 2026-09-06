@@ -18,13 +18,13 @@ combos {
     // 20 + 21 = Left Click
     left_click {
         bindings = <&mkp LCLK>;
-        key-positions = <20 21>;
+        key-positions = <19 20>;
     };
 
     // 19 + 20 = Right Click
     right_click {
         bindings = <&mkp RCLK>;
-        key-positions = <19 20>;
+        key-positions = <20 21>;
     };
 
     // 31 + 32 = Middle Click
