@@ -15,13 +15,13 @@
 combos {
     compatible = "zmk,combos";
 
-    // 20 + 21 = Left Click
+    // 19 + 20 = Left Click
     left_click {
         bindings = <&mkp LCLK>;
         key-positions = <19 20>;
     };
 
-    // 19 + 20 = Right Click
+    // 20 + 21 = Right Click
     right_click {
         bindings = <&mkp RCLK>;
         key-positions = <20 21>;
