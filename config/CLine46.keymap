@@ -12,19 +12,39 @@
 };
 
 / {
-    combos {
-        compatible = "zmk,combos";
+combos {
+    compatible = "zmk,combos";
 
-        tab {
-            bindings = <&kp TAB>;
-            key-positions = <11 12>;
-        };
-
-        shift_tab {
-            bindings = <&kp LS(TAB)>;
-            key-positions = <12 13>;
-        };
+    // 20 + 21 = Left Click
+    left_click {
+        bindings = <&mkp LCLK>;
+        key-positions = <20 21>;
     };
+
+    // 19 + 20 = Right Click
+    right_click {
+        bindings = <&mkp RCLK>;
+        key-positions = <19 20>;
+    };
+
+    // 31 + 32 = Middle Click
+    middle_click {
+        bindings = <&mkp MCLK>;
+        key-positions = <31 32>;
+    };
+
+    // 7 + 8 = Alt + Left
+    alt_left {
+        bindings = <&kp LA(LEFT)>;
+        key-positions = <7 8>;
+    };
+
+    // 8 + 9 = Alt + Right
+    alt_right {
+        bindings = <&kp LA(RIGHT)>;
+        key-positions = <8 9>;
+    };
+};
 
     macros {
         to_layer_0: to_layer_0 {
