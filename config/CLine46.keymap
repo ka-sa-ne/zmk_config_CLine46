@@ -117,10 +117,10 @@ combos {
 
         layer_4 {
             bindings = <
-&kp ESC  &none       &kp F1     &kp F2     &kp F3     &kp F10                      &kp LG(I)          &kp LG(X)          &kp LS(LC(ESC))    &kp LA(TAB)   &kp LG(TAB)     &none
-&kp TAB  &none       &kp F4     &kp F5     &kp F6     &kp F11                      &kp LS(NUMBER_1)   &kp LS(NUMBER_3)   &kp LS(NUMBER_5)   &kp INT3      &kp LS(SLASH)   &kp PG_UP
-&kp DEL  &none       &kp F7     &kp F8     &kp F9     &kp F12                      &kp EQUAL          &kp LS(EQUAL)      &kp LS(RBKT)       &kp LS(HASH)  &trans          &kp PG_DN
-         &kp LCTRL   &kp LGUI   &kp LALT   &kp LSFT   &kp SPACE   &none    &RSFT   &kp RET                                                  &kp HOME      &kp END
+&kp ESC  &none       &kp F1     &kp F2     &kp F3     &kp F10                        &kp LG(I)          &kp LG(X)          &kp LS(LC(ESC))    &kp LA(TAB)   &kp LG(TAB)     &none
+&kp TAB  &none       &kp F4     &kp F5     &kp F6     &kp F11                        &kp LS(NUMBER_1)   &kp LS(NUMBER_3)   &kp LS(NUMBER_5)   &kp INT3      &kp LS(SLASH)   &kp PG_UP
+&kp DEL  &none       &kp F7     &kp F8     &kp F9     &kp F12                        &kp EQUAL          &kp LS(EQUAL)      &kp LS(RBKT)       &kp LS(HASH)  &trans          &kp PG_DN
+         &kp LCTRL   &kp LGUI   &kp LALT   &kp LSFT   &kp SPACE   &none    &kpRSFT   &kp RET                                                  &kp HOME      &kp END
             >;
         };
 
