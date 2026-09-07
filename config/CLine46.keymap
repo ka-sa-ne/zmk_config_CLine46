@@ -35,7 +35,7 @@ combos {
 
     // 19 + 20 + 21 = mo 3
     MO_3 {
-        bindings = <&kmo 3>;
+        bindings = <&mo 3>;
         key-positions = <19 20 21>;
     };
 
