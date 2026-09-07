@@ -121,10 +121,10 @@ combos {
 
         layer_5 {
             bindings = <
-&trans   &trans   &trans   &trans   &trans   &trans                        &trans   &trans   &trans   &trans   &trans   &trans
-&trans   &trans   &trans   &trans   &trans   &trans                        &trans   &trans   &trans   &trans   &trans   &trans
-&trans   &trans   &trans   &trans   &trans   &trans                        &trans   &trans   &trans   &trans   &trans   &trans
-         &trans   &trans   &trans   &trans   &trans   &trans      &trans   &trans                     &trans   &trans       
+&kp ESC   &trans   &kp Q    &kp W    &kp E      &kp R                                 &trans   &trans      &trans      &trans      &trans   &to 0
+&kp TAB   &trans   &kp A    &kp S    &kp D      &kp F                                 &trans   &mkp LCLK   &mkp MCLK   &mkp RCLK   &trans   &trans
+&kp DEL   &trans   &kp Z    &kp X    &kp C      &kp V                                 &trans   &trans      &trans      &trans      &trans   &trans
+          &trans   &trans   &trans   &kp LSFT   &kp SPACE   &kp LCTRL      &kp BSPC   &kp RET                          &trans      &trans       
             >;
         };
 
