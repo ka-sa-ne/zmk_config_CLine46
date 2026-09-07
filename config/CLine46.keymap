@@ -83,7 +83,7 @@ combos {
             bindings = <
 &kp ESC     &none       &kp KP_MINUS   &kp UP    &kp KP_PLUS     &kp LC(C)                               &kp LC(Z)    &kp LG(LEFT)   &kp LG(LS(UP))   &kp LG(RIGHT)   &kp LG(LS(S))         &none
 &kp TAB     &none       &kp LEFT       &kp DOWN  &kp RIGHT       &kp LC(V)                               &kp LC(Y)    &mkp LCLK      &mkp MCLK        &mkp RCLK       &kp LA(PRINTSCREEN)   &kp PG_UP
-&kp DEL     &none       &none          &none     &kp LBKT        &kp LC(X)                               &kp LC(A)    &none          &none            &none           &trans                &kp PG_DN
+&kp DEL     &none       &none          &none     &kp RBKT        &kp LC(X)                               &kp LC(A)    &none          &none            &none           &trans                &kp PG_DN
             &kp LCTRL   &kp LGUI       &kp LALT  &mt LSFT INT5   &lt 1 SPACE   &lt 4 INT4      &kp DEL   &mt RSFT RET                                 &kp LA(LEFT)    &LA(RIGHT) 
             >;
         };
@@ -91,10 +91,10 @@ combos {
 
         MOUSE {
             bindings = <
-&trans   &trans   &kp F7   &kp F8   &kp F9   &kp F10                         &kp LC(Y)   &kp LC(C)        &kp LC(V)        &kp LC(X)         &kp LC(P)   &trans
-&trans   &trans   &kp F4   &kp F5   &kp F6   &kp F11                         &kp LC(Z)   &mkp MB1         &kp UP_ARROW     &mkp MB2          &kp LC(F)   &trans
-&trans   &trans   &kp F1   &kp F2   &kp F3   &kp F12                         &kp LC(A)   &kp LEFT_ARROW   &kp DOWN_ARROW   &kp RIGHT_ARROW   &trans      &trans
-         &trans   &trans   &trans   &trans   &trans    &trans      &kp RET   &kp BSPC                                      &kp HOME          &kp END
+&kp ESC   &kp LS(SINGLE_QUOTE)   &kp NUMBER_1   &kp NUMBER_2   &kp NUMBER_3   &kp NUMBER_0                    &kp SEMI           &kp SINGLE_QUOTE   &kp LG(LC(LEFT)   &kp LG(LC(RIGHT))   &kp LG(E)   &none
+&kp TAB   &kp LS(SEMI)           &kp NUMBER_4   &kp NUMBER_5   &kp NUMBER_6   &kp DOT                         &kp LS(NUMBER_6)   &kp LS(NUMBER_2)   &kp LBKT          &kp LS(INT1)        &kp LG(T)   &kp PG_UP
+&kp DEL   &kp MINUS              &kp NUMBER_7   &kp NUMBER_8   &kp NUMBER_9   &kp SLASH                       &kp LS(NUMBER_4)   &kp LS(NUMBER_7)   &kp LS(NUMBER_8)  &kp LS(NUMBER_9)    &trans      &kp PG_DN
+          &kp LCTRL              &kp LGUI       &kp LALT       &mt LSFT DEL   &kp RET              &kp BSPC   &none              &none                                &kp HOME            &kp END
             >;
         };
 
