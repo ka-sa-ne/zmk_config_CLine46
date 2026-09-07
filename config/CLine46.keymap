@@ -87,10 +87,10 @@ combos {
         
         layer_1 {
             bindings = <
-&kp ESC     &none       &kp KP_MINUS   &kp UP    &kp KP_PLUS     &kp LC(C)                               &kp LC(Z)    &kp LG(LEFT)   &kp LG(LS(UP))   &kp LG(RIGHT)   &kp LG(LS(S))         &none
-&kp TAB     &none       &kp LEFT       &kp DOWN  &kp RIGHT       &kp LC(V)                               &kp LC(Y)    &mkp LCLK      &mkp MCLK        &mkp RCLK       &kp LA(PRINTSCREEN)   &kp PG_UP
-&kp DEL     &none       &none          &none     &kp RBKT        &kp LC(X)                               &kp LC(A)    &none          &none            &none           &trans                &kp PG_DN
-            &kp LCTRL   &kp LGUI       &kp LALT  &mt LSFT INT5   &lt 1 SPACE   &lt 4 INT4      &kp DEL   &mt RSFT RET                                 &kp LA(LEFT)    &kp LA(RIGHT) 
+&kp ESC     &none       &kp KP_MINUS   &kp UP    &kp KP_PLUS     &kp LC(C)                             &kp LC(Z)    &kp LG(LEFT)   &kp LG(LS(UP))   &kp LG(RIGHT)   &kp LG(LS(S))         &none
+&kp TAB     &none       &kp LEFT       &kp DOWN  &kp RIGHT       &kp LC(V)                             &kp LC(Y)    &mkp LCLK      &mkp MCLK        &mkp RCLK       &kp LA(PRINTSCREEN)   &kp PG_UP
+&kp DEL     &none       &none          &none     &kp RBKT        &kp LC(X)                             &kp LC(A)    &none          &none            &none           &trans                &kp PG_DN
+            &kp LCTRL   &kp LGUI       &kp LALT  &mt LSFT INT5   &kp SPACE   &lt 4 INT4      &kp DEL   &mt RSFT RET                                 &kp LA(LEFT)    &kp LA(RIGHT) 
             >;
         };
 
