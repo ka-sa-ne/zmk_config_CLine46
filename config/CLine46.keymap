@@ -77,6 +77,16 @@ combos {
 
         default_layer {
             bindings = <
+&kp ESC      &kp Q       &kp W      &kp E     &kp R           &kp T                                    &kp Y     　&kp U   &kp I       &kp O       &kp P             &none
+&kp TAB      &kp A       &kp S      &kp D     &kp F           &kp G                                    &kp H     　&kp J   &kp K       &kp L       &kp MINUS         &kp UP
+&kp DEL      &kp Z       &kp X      &kp C     &kp V           &kp B                                    &kp N     　&kp M   &kp COMMA   &kp DOT     &lt 3 LS(SLASH)   &kp DOWN
+             &kp LCTRL   &kp LGUI   &kp LALT  &mt LSFT INT5   &lt 1 SPACE   &lt 4 INT4      &kp BSPC   &lt 2 RET   　　　　　　　　　　　&kp LEFT    &kp RIGHT  
+            >;
+        };
+
+
+        MOUSE {
+            bindings = <
 &kp ESC   &kp LS(SINGLE_QUOTE)   &kp NUMBER_1   &kp NUMBER_2   &kp NUMBER_3   &kp NUMBER_0                    &kp SEMI           &kp SINGLE_QUOTE   &kp LG(LC(LEFT))  &kp LG(LC(RIGHT))   &kp LG(E)   &none
 &kp TAB   &kp LS(SEMI)           &kp NUMBER_4   &kp NUMBER_5   &kp NUMBER_6   &kp DOT                         &kp LS(NUMBER_6)   &kp LS(NUMBER_2)   &kp LBKT          &kp LS(INT1)        &kp LG(T)   &kp PG_UP
 &kp DEL   &kp MINUS              &kp NUMBER_7   &kp NUMBER_8   &kp NUMBER_9   &kp SLASH                       &kp LS(NUMBER_4)   &kp LS(NUMBER_7)   &kp LS(NUMBER_8)  &kp LS(NUMBER_9)    &trans      &kp PG_DN
