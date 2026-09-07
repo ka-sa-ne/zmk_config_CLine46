@@ -91,7 +91,7 @@ combos {
 
         MOUSE {
             bindings = <
-&kp ESC   &kp LS(SINGLE_QUOTE)   &kp NUMBER_1   &kp NUMBER_2   &kp NUMBER_3   &kp NUMBER_0                    &kp SEMI           &kp SINGLE_QUOTE   &kp LG(LC(LEFT)   &kp LG(LC(RIGHT))   &kp LG(E)   &none
+&kp ESC   &kp LS(SINGLE_QUOTE)   &kp NUMBER_1   &kp NUMBER_2   &kp NUMBER_3   &kp NUMBER_0                    &kp SEMI           &kp SINGLE_QUOTE   &kp LG(LC(LEFT))   &kp LG(LC(RIGHT))   &kp LG(E)   &none
 &kp TAB   &kp LS(SEMI)           &kp NUMBER_4   &kp NUMBER_5   &kp NUMBER_6   &kp DOT                         &kp LS(NUMBER_6)   &kp LS(NUMBER_2)   &kp LBKT          &kp LS(INT1)        &kp LG(T)   &kp PG_UP
 &kp DEL   &kp MINUS              &kp NUMBER_7   &kp NUMBER_8   &kp NUMBER_9   &kp SLASH                       &kp LS(NUMBER_4)   &kp LS(NUMBER_7)   &kp LS(NUMBER_8)  &kp LS(NUMBER_9)    &trans      &kp PG_DN
           &kp LCTRL              &kp LGUI       &kp LALT       &mt LSFT DEL   &kp RET              &kp BSPC   &none              &none                                &kp HOME            &kp END
