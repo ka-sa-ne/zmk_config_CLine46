@@ -33,6 +33,12 @@ combos {
         key-positions = <19 21>;
     };
 
+    // 19 + 20 + 21 = mo 3
+    MO_3 {
+        bindings = <&mo 3>;
+        key-positions = <19 20 21>;
+    };
+
     // 7 + 8 = Alt + Left
     alt_left {
         bindings = <&kp LA(LEFT)>;
