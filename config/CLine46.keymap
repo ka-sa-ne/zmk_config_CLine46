@@ -34,7 +34,7 @@ combos {
     };
 
     // 19 + 20 + 21 = mo 3
-    alt_right {
+    MO_3 {
         bindings = <&kmo 3>;
         key-positions = <19 20 21>;
     };
